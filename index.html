@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="HOME.png" class="icon" onclick="location.href='home.html'">
+    <h1>QUEST FOR EXCELLENCE</h1>
+    <img src="LOGO.png" class="logo" />
+  </div>
+
+  <h2>CALCULATE YOUR CGPA</h2>
+
+  <div class="input-section">
+    <label>COMPLETED CREDITS <input type="number" id="completedCredits" min="1" max="150"></label>
+    <label>CURRENT CGPA <input type="number" id="currentCGPA" step="0.01" min="0" max="4"></label>
+  </div>
+
+  <div class="courses-box">
+    <h3>THIS TRIMESTER</h3>
+    <div id="coursesContainer">
+      <div class="course-row">
+        <input type="text" placeholder="Course-1" disabled>
+        <select class="credit">
+          <option value="">Credits</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <select class="grade">
+          <option value="">Grade</option>
+          <option value="A">A</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B">B</option>
+          <option value="B-">B-</option>
+          <option value="C+">C+</option>
+          <option value="C">C</option>
+          <option value="C-">C-</option>
+          <option value="D+">D+</option>
+          <option value="D">D</option>
+          <option value="F">F</option>
+        </select>
+        <button onclick="this.parentElement.remove()">DELETE</button>
+      </div>
+    </div>
+    <button onclick="addCourse()">ADD</button>
+    <button onclick="calculateCGPA()">CALCULATE</button>
+    <button onclick="resetAll()">RESET</button>
+  </div>
+
+  <button class="back-btn" onclick="location.href='back.html'">BACK</button>
+
+  <footer>
+    <div class="socials">
+      <span>MOHAI THE PICCI POLA</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

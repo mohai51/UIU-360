@@ -1,0 +1,115 @@
+body {
+  font-family: 'Poppins', sans-serif, 'Protest Strike', sans-serif;
+  background-color: white;
+  text-align: center;
+  color: #ff6a00;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #ff6a00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.icon {
+  width: 100px;
+  cursor: pointer;
+}
+
+
+.logo {
+  width: 100px;
+}
+
+h1 {
+  color: white;
+  margin: 10px ;
+  align-items: center;
+  font-family:"poppins", poppins;
+}
+
+h2 {
+  color: #ff6a00;
+  margin-top: 20px;
+  font-family: Protest Strike, Protest Strike;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 10px 0;
+  
+}
+
+.input-section label {
+  font-weight: bold;
+}
+
+.input-section input {
+  border-radius: 20px;
+  border: 1px solid #ff6a00;
+  padding: 8px;
+  width: 120px;
+  text-align: center;
+}
+
+.courses-box {
+  background-color: #ff6a00;
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  width: 1300px;
+  height: 400px;
+  max-height: 1000px;
+  
+  margin: auto;
+}
+
+.course-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 10px 0;
+}
+
+.course-row input,
+.course-row select {
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.back-btn {
+  background-color: #ff6a00;
+  color: white;
+  margin-top: 20px;
+}
+
+.socials {
+  background-color: #ff6a00;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  
+}
